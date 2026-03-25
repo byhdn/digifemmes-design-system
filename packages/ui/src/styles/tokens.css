@@ -1,0 +1,63 @@
+:root {
+  --df-color-brand-primary: #FF7B00;
+  --df-color-brand-secondary: #12B8DF;
+  --df-color-brand-accent: #FFC107;
+  --df-color-navy: #225DA7;
+  --df-color-green: #009578;
+  --df-color-error: #DC2626;
+  --df-color-surface-default: #FFFFFF;
+  --df-color-surface-subtle: #FAFAFA;
+  --df-color-surface-muted: #F5F5F5;
+  --df-color-surface-elevated: #FFFFFF;
+  --df-color-text-default: #212121;
+  --df-color-text-subtle: #757575;
+  --df-color-text-muted: #BDBDBD;
+  --df-color-text-inverse: #FFFFFF;
+  --df-color-border-default: #EEEEEE;
+  --df-color-border-subtle: #F5F5F5;
+  --df-color-border-strong: #BDBDBD;
+  --df-font-display: 'Clash Display', sans-serif;
+  --df-font-body: 'Red Hat Display', sans-serif;
+  --df-font-mono: 'Red Hat Mono', monospace;
+  --df-radius-sm: 0.25rem;
+  --df-radius-md: 0.5rem;
+  --df-radius-lg: 0.75rem;
+  --df-radius-xl: 1rem;
+  --df-radius-2xl: 1.5rem;
+  --df-radius-full: 9999px;
+  --df-shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.08);
+  --df-shadow-md: 0 4px 12px rgba(0, 0, 0, 0.08);
+  --df-shadow-lg: 0 12px 32px rgba(0, 0, 0, 0.1);
+  --df-space-1: 0.25rem;
+  --df-space-2: 0.5rem;
+  --df-space-3: 0.75rem;
+  --df-space-4: 1rem;
+  --df-space-6: 1.5rem;
+  --df-space-8: 2rem;
+  --df-space-10: 2.5rem;
+  --df-space-12: 3rem;
+  --df-transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  --df-transition-normal: 300ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+[data-theme="dark"] {
+  --df-color-brand-primary: #FF9A33;
+  --df-color-brand-secondary: #3DD4F5;
+  --df-color-brand-accent: #FFD54F;
+  --df-color-surface-default: #0F1117;
+  --df-color-surface-subtle: #161822;
+  --df-color-surface-muted: #1E2030;
+  --df-color-surface-elevated: #252840;
+  --df-color-text-default: #F0F0F5;
+  --df-color-text-subtle: #A0A3B5;
+  --df-color-text-muted: #5F6380;
+  --df-color-text-inverse: #0F1117;
+  --df-color-border-default: #2A2D42;
+  --df-color-border-subtle: #1E2030;
+  --df-color-border-strong: #3D4160;
+  --df-color-error: #FF6B6B;
+  --df-color-green: #2DD4A0;
+  --df-shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.3);
+  --df-shadow-md: 0 4px 12px rgba(0, 0, 0, 0.4);
+  --df-shadow-lg: 0 12px 32px rgba(0, 0, 0, 0.5);
+}
