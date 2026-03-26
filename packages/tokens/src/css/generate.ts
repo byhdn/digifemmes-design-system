@@ -1,6 +1,4 @@
-import type { lightTheme } from '../themes/light';
-
-type Theme = typeof lightTheme;
+type ThemeLike = Record<string, unknown>;
 
 function flattenObject(obj: Record<string, unknown>, prefix = ''): Record<string, string> {
   const result: Record<string, string> = {};
@@ -15,8 +13,8 @@ function flattenObject(obj: Record<string, unknown>, prefix = ''): Record<string
   return result;
 }
 
-export function generateCSS(theme: Theme, selector = ':root'): string {
-  const flat = flattenObject(theme as unknown as Record<string, unknown>);
+export function generateCSS(theme: ThemeLike, selector = ':root'): string {
+  const flat = flattenObject(theme as Record<string, unknown>);
   const vars = Object.entries(flat)
     .map(([key, value]) => `  --df-${key}: ${value};`)
     .join('\n');

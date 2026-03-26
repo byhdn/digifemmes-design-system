@@ -11,7 +11,8 @@ const requiredBorderKeys = ['default', 'subtle', 'strong', 'brand'];
 const requiredFeedbackKeys = ['success', 'warning', 'error', 'info'];
 const requiredShadowKeys = ['sm', 'md', 'lg'];
 
-function assertThemeStructure(theme: typeof lightTheme, name: string) {
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+function assertThemeStructure(theme: Record<string, any>, name: string) {
   describe(`${name} structure`, () => {
     it('has color and shadow top-level keys', () => {
       expect(theme).toHaveProperty('color');

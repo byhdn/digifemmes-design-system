@@ -3,7 +3,7 @@ import { darkTheme } from './dark';
 
 type Theme = typeof lightTheme;
 type DeepPartial<T> = {
-  [P in keyof T]?: T[P] extends object ? DeepPartial<T[P]> : T[P];
+  [P in keyof T]?: T[P] extends object ? DeepPartial<T[P]> : T[P] | string;
 };
 
 function deepMerge<T extends Record<string, unknown>>(target: T, source: DeepPartial<T>): T {
