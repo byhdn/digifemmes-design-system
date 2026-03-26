@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- African-inspired modern wavy lines pattern -->
+  <defs>
+    <pattern id="wavePattern" x="0" y="0" width="200" height="200" patternUnits="userSpaceOnUse">
+      <!-- Wave layer 1 — Orange -->
+      <path d="M0 40 Q25 20 50 40 T100 40 T150 40 T200 40" fill="none" stroke="#FF7B00" stroke-width="2" opacity="0.2"/>
+      <path d="M0 50 Q25 30 50 50 T100 50 T150 50 T200 50" fill="none" stroke="#FF7B00" stroke-width="1.5" opacity="0.15"/>
+      <!-- Wave layer 2 — Blue -->
+      <path d="M0 80 Q30 60 60 80 T120 80 T180 80 L200 80" fill="none" stroke="#12B8DF" stroke-width="2" opacity="0.18"/>
+      <path d="M0 90 Q30 70 60 90 T120 90 T180 90 L200 90" fill="none" stroke="#12B8DF" stroke-width="1.5" opacity="0.12"/>
+      <!-- Wave layer 3 — Navy -->
+      <path d="M0 120 Q35 100 70 120 T140 120 T200 120" fill="none" stroke="#225DA7" stroke-width="2" opacity="0.15"/>
+      <path d="M0 130 Q35 110 70 130 T140 130 T200 130" fill="none" stroke="#225DA7" stroke-width="1.5" opacity="0.1"/>
+      <!-- Wave layer 4 — Yellow accent -->
+      <path d="M0 160 Q40 140 80 160 T160 160 T200 160" fill="none" stroke="#FFC107" stroke-width="2" opacity="0.15"/>
+      <path d="M0 170 Q40 150 80 170 T160 170 T200 170" fill="none" stroke="#FFC107" stroke-width="1.5" opacity="0.1"/>
+      <!-- Decorative dots between waves (African-inspired) -->
+      <circle cx="25" cy="65" r="2" fill="#FF7B00" opacity="0.12"/>
+      <circle cx="75" cy="105" r="2" fill="#12B8DF" opacity="0.12"/>
+      <circle cx="125" cy="145" r="2" fill="#225DA7" opacity="0.12"/>
+      <circle cx="175" cy="185" r="2" fill="#FFC107" opacity="0.12"/>
+      <!-- Small triangular accents -->
+      <polygon points="50,62 53,68 47,68" fill="#FF7B00" opacity="0.1"/>
+      <polygon points="150,102 153,108 147,108" fill="#12B8DF" opacity="0.1"/>
+      <polygon points="100,142 103,148 97,148" fill="#009578" opacity="0.1"/>
+    </pattern>
+  </defs>
+  <rect width="200" height="200" fill="#FFFFFF"/>
+  <rect width="200" height="200" fill="url(#wavePattern)"/>
+</svg>

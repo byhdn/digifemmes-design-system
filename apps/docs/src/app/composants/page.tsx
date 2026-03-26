@@ -19,13 +19,13 @@ const tiers: { title: string; description: string; items: ComponentItem[] }[] = 
     items: [
       { name: 'Button', description: 'Bouton d\'action avec variantes et tailles', href: '/composants/button', ready: true },
       { name: 'Input', description: 'Champ de saisie avec label et validation', href: '/composants/input', ready: true },
-      { name: 'Badge', description: 'Indicateur de statut ou compteur', href: '/composants/badge', ready: false },
-      { name: 'Avatar', description: 'Photo de profil avec fallback initiales', href: '/composants/avatar', ready: false },
-      { name: 'Tag', description: 'Etiquette removable', href: '/composants/tag', ready: false },
-      { name: 'Toggle', description: 'Interrupteur on/off', href: '/composants/toggle', ready: false },
-      { name: 'Spinner', description: 'Indicateur de chargement', href: '/composants/spinner', ready: false },
-      { name: 'Skeleton', description: 'Placeholder de chargement', href: '/composants/skeleton', ready: false },
-      { name: 'Divider', description: 'Separateur de contenu', href: '/composants/divider', ready: false },
+      { name: 'Badge', description: 'Indicateur de statut ou compteur', href: '/composants/badge', ready: true },
+      { name: 'Avatar', description: 'Photo de profil avec fallback initiales', href: '/composants/avatar', ready: true },
+      { name: 'Tag', description: 'Etiquette removable', href: '/composants/tag', ready: true },
+      { name: 'Toggle', description: 'Interrupteur on/off', href: '/composants/toggle', ready: true },
+      { name: 'Spinner', description: 'Indicateur de chargement', href: '/composants/spinner', ready: true },
+      { name: 'Skeleton', description: 'Placeholder de chargement', href: '/composants/skeleton', ready: true },
+      { name: 'Divider', description: 'Separateur de contenu', href: '/composants/divider', ready: true },
     ],
   },
   {
@@ -33,17 +33,17 @@ const tiers: { title: string; description: string; items: ComponentItem[] }[] = 
     description: 'Composants assembles a partir de primitives, pour des cas d\'usage plus riches.',
     items: [
       { name: 'Card', description: 'Conteneur de contenu avec header/body/footer', href: '/composants/card', ready: true },
-      { name: 'Alert', description: 'Message de feedback contextuel', href: '/composants/alert', ready: false },
-      { name: 'Tooltip', description: 'Info-bulle au survol', href: '/composants/tooltip', ready: false },
-      { name: 'Progress', description: 'Barre de progression', href: '/composants/progress', ready: false },
+      { name: 'Alert', description: 'Message de feedback contextuel', href: '/composants/alert', ready: true },
+      { name: 'Tooltip', description: 'Info-bulle au survol', href: '/composants/tooltip', ready: true },
+      { name: 'Progress', description: 'Barre de progression', href: '/composants/progress', ready: true },
     ],
   },
   {
     title: 'Patterns',
     description: 'Composants de haut niveau orchestrant plusieurs composants pour des interactions complexes.',
     items: [
-      { name: 'Modal', description: 'Fenetre de dialogue modale', href: '/composants/modal', ready: false },
-      { name: 'Tabs', description: 'Navigation par onglets', href: '/composants/tabs', ready: false },
+      { name: 'Modal', description: 'Fenetre de dialogue modale', href: '/composants/modal', ready: true },
+      { name: 'Tabs', description: 'Navigation par onglets', href: '/composants/tabs', ready: true },
     ],
   },
 ];

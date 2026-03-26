@@ -32,6 +32,15 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
+      - name: Lint
+        run: pnpm lint
+
+      - name: Type check
+        run: pnpm turbo typecheck
+
+      - name: Run tests
+        run: pnpm turbo test
+
       - name: Build packages
         run: pnpm turbo build --filter=@digifemmes/tokens --filter=@digifemmes/ui --filter=@digifemmes/icons --filter=@digifemmes/ai
 

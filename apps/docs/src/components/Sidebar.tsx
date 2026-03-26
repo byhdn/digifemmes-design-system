@@ -57,6 +57,7 @@ const navigation: NavSection[] = [
     items: [
       { label: 'Logo', href: '/marque' },
       { label: 'Co-Branding', href: '/marque/co-branding' },
+      { label: 'Interdits', href: '/marque/interdits' },
     ],
   },
 ];

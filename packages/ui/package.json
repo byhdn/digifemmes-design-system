@@ -21,6 +21,7 @@
     "dev": "tsup src/index.ts --format cjs,esm --dts --watch --external react",
     "lint": "eslint src/",
     "test": "vitest run",
+    "test:watch": "vitest",
     "typecheck": "tsc --noEmit",
     "clean": "rm -rf dist"
   },
@@ -29,8 +30,11 @@
   },
   "devDependencies": {
     "@digifemmes/tsconfig": "workspace:*",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.2",
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
+    "jsdom": "^29.0.1",
     "tsup": "^8.3.0",
     "vitest": "^2.1.0"
   },
