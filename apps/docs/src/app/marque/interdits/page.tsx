@@ -211,7 +211,6 @@ export default function InterditsPage() {
                 justifyContent: 'center',
               }}
             >
-              {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src="/digifemmes-design-system/logos/primary/digifemmes-logo-full.svg"
                 alt="DigiFemmes"
@@ -265,7 +264,6 @@ export default function InterditsPage() {
               gap: '1rem',
             }}
           >
-            {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src="/digifemmes-design-system/logos/primary/digifemmes-logo-symbol.svg"
               alt="DigiFemmes symbole"
@@ -289,7 +287,6 @@ export default function InterditsPage() {
               gap: '1rem',
             }}
           >
-            {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src="/digifemmes-design-system/logos/primary/digifemmes-logo-full.svg"
               alt="DigiFemmes logo complet"

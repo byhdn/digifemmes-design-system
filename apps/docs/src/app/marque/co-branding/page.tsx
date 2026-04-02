@@ -120,7 +120,6 @@ export default function CoBrandingPage() {
               >
                 70%
               </div>
-              {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src="/digifemmes-design-system/logos/primary/digifemmes-logo-full.svg"
                 alt="DigiFemmes"
@@ -254,7 +253,6 @@ export default function CoBrandingPage() {
               >
                 60%
               </div>
-              {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src="/digifemmes-design-system/logos/primary/digifemmes-logo-full.svg"
                 alt="DigiFemmes"

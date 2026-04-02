@@ -116,7 +116,6 @@ export default function MarquePage() {
               gap: '1.5rem',
             }}
           >
-            {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src="/digifemmes-design-system/logos/primary/digifemmes-logo-full.svg"
               alt="DigiFemmes — Logo principal couleur"
@@ -139,7 +138,6 @@ export default function MarquePage() {
               gap: '1.5rem',
             }}
           >
-            {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src="/digifemmes-design-system/logos/variants/white/digifemmes-white-full.svg"
               alt="DigiFemmes — Logo blanc"
@@ -184,7 +182,6 @@ export default function MarquePage() {
                 gap: '0.75rem',
               }}
             >
-              {/* eslint-disable-next-line @next/next/no-img-element */}
               <img src={item.src} alt={item.label} style={{ maxWidth: 160, width: '100%', height: 56, objectFit: 'contain' }} />
               <div style={{ fontSize: '0.75rem', fontWeight: 600, color: '#757575', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
                 {item.label}
@@ -226,7 +223,6 @@ export default function MarquePage() {
                 gap: '0.75rem',
               }}
             >
-              {/* eslint-disable-next-line @next/next/no-img-element */}
               <img src={item.src} alt={`Logo ${item.label}`} style={{ maxWidth: 160, width: '100%', height: 56, objectFit: 'contain' }} />
               <div style={{ fontSize: '0.75rem', fontWeight: 600, color: item.border ? '#757575' : '#A0A3B5', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
                 {item.label}

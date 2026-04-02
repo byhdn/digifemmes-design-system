@@ -96,7 +96,6 @@ export function Sidebar() {
           textDecoration: 'none',
         }}
       >
-        {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           src="/digifemmes-design-system/logos/primary/digifemmes-logo-symbol.svg"
           alt="DigiFemmes"
