@@ -101,6 +101,7 @@ export default function MarquePage() {
           Logo
         </h2>
 
+        {/* Primary logo - light & dark backgrounds */}
         <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1.5rem', marginBottom: '1.5rem' }}>
           {/* Primary logo - light bg */}
           <div
@@ -112,29 +113,15 @@ export default function MarquePage() {
               display: 'flex',
               flexDirection: 'column',
               alignItems: 'center',
-              gap: '1rem',
+              gap: '1.5rem',
             }}
           >
-            <div
-              style={{
-                width: 72,
-                height: 72,
-                borderRadius: 'var(--df-radius-xl)',
-                background: 'linear-gradient(135deg, #FF7B00, #12B8DF)',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                color: 'white',
-                fontWeight: 800,
-                fontSize: '1.5rem',
-                fontFamily: 'var(--df-font-display)',
-              }}
-            >
-              DF
-            </div>
-            <div style={{ fontFamily: 'var(--df-font-display)', fontWeight: 800, fontSize: '1.5rem', color: '#212121' }}>
-              DigiFemmes
-            </div>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/digifemmes-design-system/logos/primary/digifemmes-logo-full.svg"
+              alt="DigiFemmes — Logo principal couleur"
+              style={{ maxWidth: 280, width: '100%', height: 'auto' }}
+            />
             <div style={{ fontSize: '0.75rem', fontWeight: 600, color: '#757575', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
               Logo principal — fond clair
             </div>
@@ -149,33 +136,103 @@ export default function MarquePage() {
               display: 'flex',
               flexDirection: 'column',
               alignItems: 'center',
-              gap: '1rem',
+              gap: '1.5rem',
             }}
           >
-            <div
-              style={{
-                width: 72,
-                height: 72,
-                borderRadius: 'var(--df-radius-xl)',
-                background: 'linear-gradient(135deg, #FF9A33, #3DD4F5)',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                color: 'white',
-                fontWeight: 800,
-                fontSize: '1.5rem',
-                fontFamily: 'var(--df-font-display)',
-              }}
-            >
-              DF
-            </div>
-            <div style={{ fontFamily: 'var(--df-font-display)', fontWeight: 800, fontSize: '1.5rem', color: '#F0F0F5' }}>
-              DigiFemmes
-            </div>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/digifemmes-design-system/logos/variants/white/digifemmes-white-full.svg"
+              alt="DigiFemmes — Logo blanc"
+              style={{ maxWidth: 280, width: '100%', height: 'auto' }}
+            />
             <div style={{ fontSize: '0.75rem', fontWeight: 600, color: '#A0A3B5', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
               Logo principal — fond sombre
             </div>
           </div>
+        </div>
+
+        {/* All logo variants */}
+        <h3
+          style={{
+            fontFamily: 'var(--df-font-display)',
+            fontSize: '1.125rem',
+            fontWeight: 700,
+            color: 'var(--df-color-text-default)',
+            marginBottom: '1rem',
+            marginTop: '2rem',
+          }}
+        >
+          Declinaisons du logo
+        </h3>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '1rem', marginBottom: '1.5rem' }}>
+          {[
+            { label: 'Symbole', src: '/digifemmes-design-system/logos/primary/digifemmes-logo-symbol.svg', bg: '#FFFFFF' },
+            { label: 'Wordmark', src: '/digifemmes-design-system/logos/primary/digifemmes-logo-wordmark.svg', bg: '#FFFFFF' },
+            { label: 'Logo complet', src: '/digifemmes-design-system/logos/primary/digifemmes-logo-full.svg', bg: '#FFFFFF' },
+            { label: 'Avec tagline', src: '/digifemmes-design-system/logos/primary/digifemmes-logo-tagline.svg', bg: '#FFFFFF' },
+          ].map((item) => (
+            <div
+              key={item.label}
+              style={{
+                backgroundColor: item.bg,
+                borderRadius: 'var(--df-radius-xl)',
+                border: '1px solid var(--df-color-border-default)',
+                padding: '1.5rem 1rem',
+                display: 'flex',
+                flexDirection: 'column',
+                alignItems: 'center',
+                gap: '0.75rem',
+              }}
+            >
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src={item.src} alt={item.label} style={{ maxWidth: 160, width: '100%', height: 56, objectFit: 'contain' }} />
+              <div style={{ fontSize: '0.75rem', fontWeight: 600, color: '#757575', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
+                {item.label}
+              </div>
+            </div>
+          ))}
+        </div>
+
+        {/* Color variants */}
+        <h3
+          style={{
+            fontFamily: 'var(--df-font-display)',
+            fontSize: '1.125rem',
+            fontWeight: 700,
+            color: 'var(--df-color-text-default)',
+            marginBottom: '1rem',
+            marginTop: '1.5rem',
+          }}
+        >
+          Variantes de couleur
+        </h3>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '1rem', marginBottom: '1.5rem' }}>
+          {[
+            { label: 'Couleur', src: '/digifemmes-design-system/logos/variants/color/digifemmes-color-full.svg', bg: '#FFFFFF', border: true },
+            { label: 'Noir', src: '/digifemmes-design-system/logos/variants/black/digifemmes-black-full.svg', bg: '#FFFFFF', border: true },
+            { label: 'Blanc', src: '/digifemmes-design-system/logos/variants/white/digifemmes-white-full.svg', bg: '#0F1117', border: false },
+            { label: 'Monochrome', src: '/digifemmes-design-system/logos/variants/single-color/digifemmes-mono-full.svg', bg: '#FFFFFF', border: true },
+          ].map((item) => (
+            <div
+              key={item.label}
+              style={{
+                backgroundColor: item.bg,
+                borderRadius: 'var(--df-radius-xl)',
+                border: item.border ? '1px solid var(--df-color-border-default)' : 'none',
+                padding: '1.5rem 1rem',
+                display: 'flex',
+                flexDirection: 'column',
+                alignItems: 'center',
+                gap: '0.75rem',
+              }}
+            >
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src={item.src} alt={`Logo ${item.label}`} style={{ maxWidth: 160, width: '100%', height: 56, objectFit: 'contain' }} />
+              <div style={{ fontSize: '0.75rem', fontWeight: 600, color: item.border ? '#757575' : '#A0A3B5', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
+                {item.label}
+              </div>
+            </div>
+          ))}
         </div>
 
         {/* Logo rules */}

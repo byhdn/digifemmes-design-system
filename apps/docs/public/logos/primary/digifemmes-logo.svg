@@ -1,0 +1,15 @@
+<!-- Placeholder: Replace with official DigiFemmes logo -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="brandGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF7B00"/>
+      <stop offset="100%" stop-color="#E56D00"/>
+    </linearGradient>
+  </defs>
+  <!-- Background shape -->
+  <rect x="20" y="20" width="160" height="160" rx="32" fill="url(#brandGradient)"/>
+  <!-- Letter D -->
+  <path d="M58 68 h12 c20 0 36 14 36 32 s-16 32-36 32 h-12 z M72 78 v44 h4 c14 0 22-10 22-22 s-8-22-22-22 z" fill="#FFFFFF"/>
+  <!-- Letter F -->
+  <path d="M116 68 h30 v10 h-16 v14 h14 v10 h-14 v30 h-14 z" fill="#FFFFFF"/>
+</svg>

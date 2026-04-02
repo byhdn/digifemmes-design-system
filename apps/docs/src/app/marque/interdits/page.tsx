@@ -208,29 +208,15 @@ export default function InterditsPage() {
                 padding: '2rem 3rem',
                 display: 'flex',
                 alignItems: 'center',
-                gap: '0.75rem',
+                justifyContent: 'center',
               }}
             >
-              <div
-                style={{
-                  width: 48,
-                  height: 48,
-                  borderRadius: 'var(--df-radius-lg)',
-                  background: 'linear-gradient(135deg, #FF7B00, #12B8DF)',
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  color: 'white',
-                  fontWeight: 800,
-                  fontSize: '1rem',
-                  fontFamily: 'var(--df-font-display)',
-                }}
-              >
-                DF
-              </div>
-              <span style={{ fontFamily: 'var(--df-font-display)', fontWeight: 800, fontSize: '1.25rem', color: 'var(--df-color-text-default)' }}>
-                DigiFemmes
-              </span>
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/digifemmes-design-system/logos/primary/digifemmes-logo-full.svg"
+                alt="DigiFemmes"
+                style={{ maxWidth: 220, width: '100%', height: 'auto' }}
+              />
             </div>
             {/* Arrows */}
             <div style={{ position: 'absolute', top: '-1.25rem', left: '50%', transform: 'translateX(-50%)', fontSize: '0.6875rem', fontWeight: 600, color: '#DC2626', fontFamily: 'var(--df-font-mono)' }}>
@@ -279,23 +265,12 @@ export default function InterditsPage() {
               gap: '1rem',
             }}
           >
-            <div
-              style={{
-                width: 24,
-                height: 24,
-                borderRadius: 'var(--df-radius-sm)',
-                background: 'linear-gradient(135deg, #FF7B00, #12B8DF)',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                color: 'white',
-                fontWeight: 800,
-                fontSize: '0.5rem',
-                fontFamily: 'var(--df-font-display)',
-              }}
-            >
-              DF
-            </div>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/digifemmes-design-system/logos/primary/digifemmes-logo-symbol.svg"
+              alt="DigiFemmes symbole"
+              style={{ width: 24, height: 24 }}
+            />
             <div style={{ textAlign: 'center' }}>
               <div style={{ fontWeight: 700, fontSize: '0.875rem', color: 'var(--df-color-text-default)', marginBottom: '0.25rem' }}>Symbole seul</div>
               <div style={{ fontSize: '0.8125rem', color: 'var(--df-color-text-subtle)' }}>Minimum : <strong>24px</strong> de hauteur</div>
@@ -314,28 +289,12 @@ export default function InterditsPage() {
               gap: '1rem',
             }}
           >
-            <div style={{ display: 'flex', alignItems: 'center', gap: '0.375rem' }}>
-              <div
-                style={{
-                  width: 20,
-                  height: 20,
-                  borderRadius: '0.25rem',
-                  background: 'linear-gradient(135deg, #FF7B00, #12B8DF)',
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  color: 'white',
-                  fontWeight: 800,
-                  fontSize: '0.4375rem',
-                  fontFamily: 'var(--df-font-display)',
-                }}
-              >
-                DF
-              </div>
-              <span style={{ fontFamily: 'var(--df-font-display)', fontWeight: 800, fontSize: '0.6875rem', color: 'var(--df-color-text-default)' }}>
-                DigiFemmes
-              </span>
-            </div>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/digifemmes-design-system/logos/primary/digifemmes-logo-full.svg"
+              alt="DigiFemmes logo complet"
+              style={{ maxWidth: 120, width: '100%', height: 'auto' }}
+            />
             <div style={{ textAlign: 'center' }}>
               <div style={{ fontWeight: 700, fontSize: '0.875rem', color: 'var(--df-color-text-default)', marginBottom: '0.25rem' }}>Logo complet</div>
               <div style={{ fontSize: '0.8125rem', color: 'var(--df-color-text-subtle)' }}>Minimum : <strong>120px</strong> de largeur</div>

@@ -1,0 +1,9 @@
+<!-- Placeholder: Replace with official DigiFemmes logo — Single color (orange) variant -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Background shape -->
+  <rect x="20" y="20" width="160" height="160" rx="32" fill="none" stroke="#FF7B00" stroke-width="4"/>
+  <!-- Letter D -->
+  <path d="M58 68 h12 c20 0 36 14 36 32 s-16 32-36 32 h-12 z M72 78 v44 h4 c14 0 22-10 22-22 s-8-22-22-22 z" fill="#FF7B00"/>
+  <!-- Letter F -->
+  <path d="M116 68 h30 v10 h-16 v14 h14 v10 h-14 v30 h-14 z" fill="#FF7B00"/>
+</svg>
