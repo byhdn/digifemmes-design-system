@@ -120,26 +120,12 @@ export default function CoBrandingPage() {
               >
                 70%
               </div>
-              <div
-                style={{
-                  width: 56,
-                  height: 56,
-                  borderRadius: 'var(--df-radius-lg)',
-                  background: 'linear-gradient(135deg, #FF7B00, #12B8DF)',
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  color: 'white',
-                  fontWeight: 800,
-                  fontSize: '1.125rem',
-                  fontFamily: 'var(--df-font-display)',
-                }}
-              >
-                DF
-              </div>
-              <div style={{ fontFamily: 'var(--df-font-display)', fontWeight: 700, fontSize: '1.125rem', color: 'var(--df-color-text-default)' }}>
-                DigiFemmes
-              </div>
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/digifemmes-design-system/logos/primary/digifemmes-logo-full.svg"
+                alt="DigiFemmes"
+                style={{ maxWidth: 200, width: '100%', height: 'auto' }}
+              />
             </div>
 
             {/* Separator */}
@@ -268,26 +254,12 @@ export default function CoBrandingPage() {
               >
                 60%
               </div>
-              <div
-                style={{
-                  width: 48,
-                  height: 48,
-                  borderRadius: 'var(--df-radius-lg)',
-                  background: 'linear-gradient(135deg, #FF7B00, #12B8DF)',
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  color: 'white',
-                  fontWeight: 800,
-                  fontSize: '1rem',
-                  fontFamily: 'var(--df-font-display)',
-                }}
-              >
-                DF
-              </div>
-              <div style={{ fontFamily: 'var(--df-font-display)', fontWeight: 700, fontSize: '1rem', color: 'var(--df-color-text-default)' }}>
-                DigiFemmes
-              </div>
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/digifemmes-design-system/logos/primary/digifemmes-logo-full.svg"
+                alt="DigiFemmes"
+                style={{ maxWidth: 180, width: '100%', height: 'auto' }}
+              />
             </div>
 
             {/* Separator with "x" text */}

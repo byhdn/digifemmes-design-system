@@ -96,22 +96,15 @@ export function Sidebar() {
           textDecoration: 'none',
         }}
       >
-        <div
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src="/digifemmes-design-system/logos/primary/digifemmes-logo-symbol.svg"
+          alt="DigiFemmes"
           style={{
             width: 36,
             height: 36,
-            borderRadius: 'var(--df-radius-lg)',
-            background: 'linear-gradient(135deg, #FF7B00, #12B8DF)',
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            color: 'white',
-            fontWeight: 800,
-            fontSize: '0.875rem',
           }}
-        >
-          DF
-        </div>
+        />
         <div>
           <div
             style={{
